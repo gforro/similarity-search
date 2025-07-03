@@ -1,0 +1,1528 @@
+{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical in name, job title, skills, and summary to the target record, giving a perfect match.",
+  "keyFactors": [
+    "Identical name",
+    "Identical job title",
+    "Identical skill set"
+  ]
+}{"bestMatch":1,"similarity":1.0,"reasoning":"Person 1 is identical across all key fields—name, job title, skills, and summary—resulting in a perfect match.","keyFactors":["Identical name","Identical job title","Identical skill set"]}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 shares all four key skills (SQL, Python, HTML, Docker) and has an identical summary and name, outweighing the job-title difference. Persons 2 and 3 match the DevOps title but have fewer overlapping skills and different summaries.",
+  "keyFactors": [
+    "Complete skills overlap",
+    "Identical short summary",
+    "Name match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.8,
+  "reasoning": "Person 1 is the clear match: the name and short summary are identical, and all three core skills overlap. The only mismatch is the job title. Persons 2 and 3 share the UX Designer title but have only one skill in common and completely different summaries and names.",
+  "keyFactors": [
+    "Exact name match",
+    "Full overlap of core skills (SQL, HTML, Kubernetes)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target in name, job title, full skill set, and summary text, resulting in a perfect match.",
+  "keyFactors": ["Name", "Job title", "Skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.72,
+  "reasoning": "Person 1 has the exact same name and summary as the target and shares all four of the target's skills (plus an extra), yielding the highest overall similarity despite the different job title.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical summary",
+    "High skill overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 shares all three core skills (SQL, HTML, Kubernetes) and has an identical summary to the target profile. Although the job title differs, the complete overlap in skills and summary makes Person 1 the closest match. Persons 2 and 3 match on title but only share one skill each and have different summaries.",
+  "keyFactors": [
+    "Complete overlap of core skills (SQL, HTML, Kubernetes)",
+    "Identical short summary text",
+    "Exact name match"
+  ]
+}{"bestMatch":1,"similarity":1.0,"reasoning":"Person 1 matches exactly on name, job title, skill set, and even the summary text, making it the identical record to the target.","keyFactors":["Exact name match","Identical job title","Complete skills overlap"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match across all major attributes (name, job title, skills and summary).",
+  "keyFactors": ["Exact skill set match", "Identical job title", "Identical summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared fields: name, job title, skill set, and summary text are the same.",
+  "keyFactors": [
+    "Name match",
+    "Job title match",
+    "Skills match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match to the target across name, job title, skill set, and summary.",
+  "keyFactors": [
+    "Identical name",
+    "Identical job title",
+    "Perfect overlap in skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target record, matching on name, job title, skills, and summary.",
+  "keyFactors": ["Name match", "Job title match", "Skills match"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 shares the exact same name, job title, full skill set, and even the identical summary text, making it a perfect match.",
+  "keyFactors": [
+    "Exact skill set match",
+    "Identical summary text",
+    "Same job title"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target record, sharing the same name, job title, full skill set, and identical summary.",
+  "keyFactors": [
+    "Identical name and job title",
+    "Perfect overlap in skills",
+    "Exact match of summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact name, the identical set of skills, and the same summary text. The only difference is the job title (Product Manager vs. UX Designer), which slightly reduces the overall similarity score.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set (CSS, Kubernetes, AWS)",
+    "Matching summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact name, identical skill set (JavaScript, HTML, Python, CSS) and the exact same summary as the target. The only discrepancy is the job title (Software Engineer vs Data Scientist), resulting in a very high but not perfect similarity score.",
+  "keyFactors": [
+    "Identical name",
+    "Identical skill set",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared fields: name, job title, skills, and summary text match exactly.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Complete skills overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 has an identical name and summary, matches all three of the original skills, and only differs in job title, making them the closest overall.",
+  "keyFactors": [
+    "Exact name match",
+    "Full skills overlap (JavaScript, HTML, Docker)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 shares all five technical skills, has an identical name and summary. The only difference is the job title, which slightly lowers the score. Persons 2 and 3 have fewer matching skills and different summaries.",
+  "keyFactors": [
+    "100% skills overlap",
+    "Identical summary text",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, skill set, and even the identical summary with the target. The only difference is the job title (UX Designer vs. Product Manager), making it by far the closest match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills (Node.js, React, JavaScript, SQL)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 matches on name and job title, shares all core skills (Node.js, CSS, HTML) plus an extra skill, and has an identical short summary, making it the closest match.",
+  "keyFactors": [
+    "identical job title",
+    "high core skills overlap",
+    "identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly in name, job title, skill set, and summary text, making it a perfect match to the reference.",
+  "keyFactors": ["Exact job title", "Exact skills", "Identical summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on name, job title, skills and summary, resulting in a perfect similarity.",
+  "keyFactors": [
+    "Identical name",
+    "Same job title",
+    "Exact match of skills"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.43,
+  "reasoning": "All three candidates share the same job title, but Person 3 (Lori Shaw) has the highest proportion of overlapping core skills (3 out of 5) versus the total distinct skills when compared to the target. This yields a higher skill‐similarity ratio than with Persons 1 or 2.",
+  "keyFactors": [
+    "Exact match on job title: DevOps Engineer",
+    "Shared skills with target: SQL, Kubernetes, React",
+    "Highest skill overlap ratio (3 shared skills over 7 total distinct skills ≈ 0.43)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.70,
+  "reasoning": "Person 1 shares the exact same name and identical summary, and matches 4 out of 5 skills (SQL, Python, HTML, Docker). Although the job title differs, the strong overlap on name, summary, and skills makes Person 1 the best match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical summary",
+    "High skills overlap (4/5)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.98,
+  "reasoning": "Person 1 matches the target almost exactly: same name and job title, identical summary text, and full coverage of the target’s skills (Node.js, Python, SQL) with only one extra skill (AWS). Person 3 matches on job and skills but differs in name and summary, while Person 2 shares far fewer attributes.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical summary text",
+    "Complete overlap of core skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on name, job title, skill set, and even the short summary, making it an identical record to the person being evaluated.",
+  "keyFactors": [
+    "Exact name match (Mark Miller)",
+    "Identical job title (UX Designer)",
+    "Same skill set (JavaScript, Kubernetes, AWS)",
+    "Matching short summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on all key attributes (name, job title, skills, and summary), yielding a perfect similarity.",
+  "keyFactors": ["Name match", "Job title match", "Skills match"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.75,
+  "reasoning": "Person 1 shares the same name, identical skill set (Python, React, HTML), and an identical summary with the target. Only the job title differs (Software Engineer vs. UX Designer), resulting in a high overall similarity score.",
+  "keyFactors": [
+    "Identical name",
+    "Exact match of core skills",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches the target exactly across all evaluated fields—name, job title, skill set, and summary—resulting in a perfect similarity score.",
+  "keyFactors": [
+    "Identical skill set",
+    "Identical short summary",
+    "Same name and job title"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.98,
+  "reasoning": "Person 1 matches exactly on name and job title, shares all the core skills (JavaScript, HTML, Kubernetes, CSS), and has an identical short summary. The only minor difference is the extra React skill.",
+  "keyFactors": [
+    "Exact name and job title match",
+    "Complete overlap in core skills",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared fields—name, job title, skills, and summary—resulting in a perfect match.",
+  "keyFactors": [
+    "Name",
+    "Job title",
+    "Skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.93,
+  "reasoning": "Person 1 shares the exact name, the full set of skills and an identical summary with the target. The only discrepancy is the job title (Data Scientist vs Product Manager). Neither Person 2 nor Person 3 achieves as high an overlap across these critical fields.",
+  "keyFactors": [
+    "Exact match on name",
+    "Identical skills set (CSS, Kubernetes, React)",
+    "Verbatim short summary"
+  ]
+}{"bestMatch": 1, "similarity": 0.95, "reasoning": "Person 1 shares the identical name, exact same skill set, and the same short summary; only the job title differs. This makes Person 1 by far the closest match.", "keyFactors": ["Identical name","Exact skill match","Identical summary"]}{"bestMatch": 1, "similarity": 1.0, "reasoning": "Person 1 matches exactly on name, job title, skills (React, JavaScript, SQL) and shares the identical summary text, making it a perfect match.", "keyFactors": ["Exact name match", "Identical summary text", "Complete skills overlap"]}{
+  "bestMatch": 1,
+  "similarity": 0.97,
+  "reasoning": "Person 1 has the exact same name, job title, and short summary as the target, and shares all of the target’s skills plus one additional skill, making it the closest match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical short summary",
+    "High skill overlap"
+  ]
+}{"bestMatch": 1,  
+ "similarity": 0.90,  
+ "reasoning": "Person 1 shares the exact same name, matches all three core skills (React, CSS, AWS), and has an identical summary. The only mismatch is the job title.",  
+ "keyFactors": ["Name match","Full skill overlap","Identical summary"]}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact name and summary wording, has a 100% overlap on the target’s core skills (Python, Docker, Kubernetes, AWS), and only differs in job title. This high correspondence across multiple attributes drives the strongest similarity.",
+  "keyFactors": [
+    "Exact name match",
+    "Perfect skills overlap",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target across all relevant fields: name, job title, skills, and summary.",
+  "keyFactors": [
+    "Exact match of all skills",
+    "Identical summary text",
+    "Same name and job title"
+  ]
+}{"bestMatch": 1, "similarity": 0.9, "reasoning": "Person 1 shares the exact same name, skill set, and even the identical short summary; the only discrepancy is the job title, making them by far the closest match.", "keyFactors": ["Identical skills (Kubernetes, Python, AWS)", "Same summary text", "Exact same name"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target in name, job title, skills list, and even the summary text, resulting in a perfect match.",
+  "keyFactors": ["Name match", "Job title match", "Skills match"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared fields (name, job title, skills, and summary), yielding a perfect match.",
+  "keyFactors": [
+    "Name match",
+    "Job title match",
+    "Skills match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match to the target across all compared fields (name, job title, skills, and summary), yielding perfect similarity.",
+  "keyFactors": [
+    "Identical name",
+    "Exact same set of skills",
+    "Matching job title and summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, skill set, and summary text with the target. The only discrepancy is the job title, which lowers the score from a perfect match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.88,
+  "reasoning": "Person 1 matches all six skills and has an identical summary to the target. Although the job title differs (Product Manager vs UX Designer), the perfect skills overlap and exact summary make this record the closest overall.",
+  "keyFactors": [
+    "100% skills overlap",
+    "Identical short summary",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 matches on name, skills and summary exactly. The only difference is the job title (DevOps Engineer vs Data Scientist), which slightly reduces the overall similarity.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills set",
+    "Same short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.9,
+  "reasoning": "Person 1 shares the exact same name, skills, and summary with the target, differing only in job title. The high overlap in key attributes makes them the closest match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set (AWS, JavaScript, HTML)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, all three technical skills, and even an identical summary. The only discrepancy is the job title, which slightly lowers the score but does not outweigh the strong matches elsewhere.",
+  "keyFactors": [
+    "Exact name match",
+    "Complete overlap of skills (SQL, Docker, AWS)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.82,
+  "reasoning": "Person 1 shares the exact same name, has a 100% overlap in technical skills, and even uses an identical summary. The only difference is the job title (Product Manager vs. Software Engineer), which slightly reduces the overall score.",
+  "keyFactors": [
+    "Exact match on name",
+    "100% overlap in skills (SQL, HTML, AWS, React)",
+    "Identical summary text"
+  ]
+}{"bestMatch": 1, "similarity": 0.80, "reasoning": "Person 1 shares all three of the target’s core skills (SQL, HTML, Kubernetes) and has an identical summary text. Although the job title differs, the near-perfect skills overlap and verbatim summary make Person 1 the closest match overall.", "keyFactors": ["Identical summary text", "Shared key skills (SQL, HTML, Kubernetes)", "High overlap in personal details (same name)"]}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 shares the identical name, exact same set of technical skills, and the summary text matches word-for-word. The only difference is a slight job-title variation (UX Designer vs. Product Manager), making this record almost a perfect match.",
+  "keyFactors": [
+    "Exact same name",
+    "Identical skill set",
+    "Word-for-word summary match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all major attributes—name, job title, skills list, and summary text—resulting in a perfect match.",
+  "keyFactors": ["Name match", "Job title match", "Skills match"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target profile—every field (name, job title, skills, and summary) matches perfectly—indicating a perfect similarity.",
+  "keyFactors": [
+    "Identical name",
+    "Identical skill set",
+    "Identical summary"
+  ]
+}{"bestMatch": 1, "similarity": 0.94, "reasoning": "Person 1 shares the exact same name, identical skill set, and the same short summary as the target. The only discrepancy is the job title, but the overwhelming overlap elsewhere makes this the closest match.", "keyFactors": ["Identical name","Exact skill set match","Identical summary"]}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact same name, skills list, and summary text with the target person. The only notable difference is the job title (UX Designer vs. Software Engineer), which slightly reduces the overall similarity score.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all attributes—name, job title, skills, and summary—resulting in a perfect match.",
+  "keyFactors": [
+    "Exact name match",
+    "Exact job title match",
+    "Identical skill set"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.50,
+  "reasoning": "All candidates share the same job title, so the deciding factor is skill overlap. Person 1 matches three of Michele’s three skills (Python, HTML, Kubernetes), yielding the highest similarity score.",
+  "keyFactors": [
+    "Shared skills: Python, HTML, Kubernetes",
+    "Matching job title: UX Designer",
+    "Highest Jaccard similarity on skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 shares the exact same name, identical skill set, and an identical summary with only the job title differing, making them the closest match overall.",
+  "keyFactors": [
+    "Exact match on name",
+    "Identical skills (Python, Kubernetes, React, SQL)",
+    "Identical short summary"
+  ]
+}```json
+{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared fields (name, job title, skills, and summary).",
+  "keyFactors": [
+    "Exact match of all listed skills",
+    "Same job title",
+    "Identical summary text"
+  ]
+}
+```{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 shares the exact same name, an identical skill set, and the same summary text. The only divergence is the job title (Data Scientist vs. Product Manager), which slightly reduces the overall similarity.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills list",
+    "Matching summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across name, job title, skills, and summary, resulting in a perfect match.",
+  "keyFactors": ["Name", "Job title", "Skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is a perfect duplicate of the target across all attributes—name, job title, skills, and summary—yielding a full match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Perfect overlap in skill set"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match across all compared attributes (name, job title, skills and summary).",
+  "keyFactors": ["Identical name", "Identical job title", "Identical skill set", "Identical summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across every field—name, job title, skills, and summary—resulting in a perfect match.",
+  "keyFactors": [
+    "Exact same name",
+    "Identical job title",
+    "Matching skill set"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name and short summary, and has three out of four skills in common (Python, Docker, SQL). Although the job title differs, the overall overlap is far greater than with the other candidates.",
+  "keyFactors": [
+    "Identical name",
+    "Identical summary",
+    "High skill overlap (Python, Docker, SQL)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 shares the exact same skill set and summary, and even the same name, differing only in job title. Persons 2 and 3 match fewer skills and have different summaries.",
+  "keyFactors": [
+    "Exact skill overlap (Docker, Python, AWS, HTML)",
+    "Identical summary text",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.80,
+  "reasoning": "Person 1 shares the exact same name and short summary as the target and matches all five of the target’s listed skills (plus one extra), giving it a much higher overall correspondence than the other candidates despite a different job title.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical short summary",
+    "100% overlap in listed skills"
+  ]
+}```json
+{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 matches exactly on name, skills and summary, differing only by job title. This yields the highest overall overlap.",
+  "keyFactors": [
+    "Identical name",
+    "Exact match on all listed skills",
+    "Identical short summary"
+  ]
+}
+```{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, skills list, and short summary as the target. The only discrepancy is the job title (UX Designer vs. Data Scientist), whereas Persons 2 and 3 differ more substantially in name, summary, and skill overlap.",
+  "keyFactors": [
+    "Name identical",
+    "Identical skills",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical across all key fields—name, job title, skills list, and summary text match exactly with the target record.",
+  "keyFactors": ["Name", "Job title", "Skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.75,
+  "reasoning": "Person 1 shares the exact same name, identical skill set and summary with only the job title differing, resulting in a high overall match.",
+  "keyFactors": ["name match", "skill overlap", "summary match"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1’s profile is identical to the target across all evaluated fields (name, job title, skills, and summary), resulting in a perfect match.",
+  "keyFactors": [
+    "Name match",
+    "Job title match",
+    "Skills match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.50,
+  "reasoning": "Person 1 shares three out of four core skills (AWS, CSS, HTML) with the target and holds the identical job title. The shared last name adds a minor boost to their overall similarity.",
+  "keyFactors": [
+    "Skill overlap: AWS, CSS, HTML",
+    "Same job title: DevOps Engineer",
+    "Last name similarity: Russell"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact name, all three key skills (CSS, Kubernetes, Docker), and the same short summary. The only difference is the job title, which slightly reduces the score.",
+  "keyFactors": [
+    "identical name",
+    "complete skills overlap",
+    "identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 has the exact same name, identical skill set, and an identical summary. The only minor difference is the job title (both are engineering roles), yielding a very high overall similarity.",
+  "keyFactors": ["Name match","Skills match","Summary identical"]
+}{"bestMatch":1,"similarity":0.90,"reasoning":"Person 1 is virtually identical to the target: they share the same name and job title, have an exact match on the summary, and encompass all of the target’s core skills (with only one extra skill).","keyFactors":["identical name","identical job title","complete skills overlap"]}{"bestMatch":2,"similarity":0.75,"reasoning":"Person 2 shares three of the four key skills (Node.js, Docker, SQL) with Ashley and holds the same DevOps Engineer title, whereas the others match only two skills. This higher skill overlap makes Person 2 the closest match.","keyFactors":["Common skill: Node.js","Common skill: Docker","Common skill: SQL"]}{
+  "bestMatch": 1,
+  "similarity": 0.8,
+  "reasoning": "Person 1 shares the exact name, all three skills and the identical summary with the target. While the job title differs slightly (Software Engineer vs DevOps Engineer), the perfect alignment on name, skills and summary gives it the highest overall similarity score.",
+  "keyFactors": [
+    "Exact name match",
+    "Full skills overlap",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.67,
+  "reasoning": "Angelica Clark shares two out of three core skills (Node.js and AWS) with Brianna and holds the exact same job title, making her the closest match.",
+  "keyFactors": [
+    "Job title match (Data Scientist)",
+    "Shared skill: Node.js",
+    "Shared skill: AWS"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.78,
+  "reasoning": "Person 2 (Elizabeth Hudson) shares the same job title and has the highest skills overlap (4 out of 6) compared to Person 1 (3/6) and Person 3 (2/6). The generic summaries provide little differentiation, so skill commonality drives the score.",
+  "keyFactors": [
+    "Job title matches (UX Designer)",
+    "4 overlapping skills (Kubernetes, React, AWS, CSS)",
+    "Highest skills Jaccard similarity (4/6 ≈ 0.67)"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.67,
+  "reasoning": "Person 2 shares the exact same job title (Software Engineer) and overlaps on two core skills (AWS and JavaScript), making her the closest match despite a slightly lower total skill overlap than Person 1. Person 1 has more shared skills but a different role (DevOps Engineer), and Person 3 also has a role mismatch and fewer overlapping skills.",
+  "keyFactors": [
+    "Job title match",
+    "AWS skill in common",
+    "JavaScript skill in common"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.75,
+  "reasoning": "While Person 1 shares an identical name and summary, their role as Product Manager diverges from the target’s DevOps focus. Person 2 matches the DevOps title but lacks Node.js. Person 3 not only holds the same DevOps Engineer title but also covers all three core skills (Node.js, Python, CSS) plus additional relevant tools, making them the closest match overall.",
+  "keyFactors": [
+    "Exact match on DevOps Engineer role",
+    "Core skill overlap (Node.js, Python, CSS)",
+    "Additional relevant DevOps skills (AWS, SQL, JavaScript)"
+  ]
+}{"bestMatch": 1, "similarity": 0.83, "reasoning": "Alex Singh Jr. shares five out of six core skills with Reginald Jenkins (React, CSS, Node.js, HTML, Python), matching the job title and technical profile most closely among the three candidates.", "keyFactors": ["Skill overlap (5/6 shared skills)", "Exact job title match (Data Scientist)", "Broad coverage of web and backend technologies"]}{"bestMatch": 3, "similarity": 0.67, "reasoning": "Person 3 is also a UX Designer and shares two out of three core skills (Kubernetes and AWS) with Tracey. Additionally, Person 3’s experience with React aligns well with Tracey’s front-end focus, resulting in the highest overall alignment of role and technical stack.", "keyFactors": ["Matching job title (UX Designer)", "Shared skills: Kubernetes and AWS", "Front-end technology overlap via React"]}{
+  "bestMatch": 3,
+  "similarity": 0.83,
+  "reasoning": "All three candidates share the same job title, but Person 3 (Lisa Huff) has the highest overlap in core skills—4 out of 5 match (Docker, SQL, HTML, AWS)—which makes her most similar to Tim Reeves.",
+  "keyFactors": [
+    "Identical job title (DevOps Engineer)",
+    "High skill overlap (4 of 5 skills match)",
+    "Includes key cloud skill AWS"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.57,
+  "reasoning": "Person 2 (Sherry Davis) shares four out of five key technical skills (Docker, SQL, HTML, React) with Christina Romero and holds the exact same job title, yielding the highest overall similarity score among the three candidates.",
+  "keyFactors": [
+    "High skill overlap (Docker, SQL, HTML, React)",
+    "Exact job title match (DevOps Engineer)",
+    "Highest Jaccard similarity on skill sets"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.62,
+  "reasoning": "All candidates share the same job title, but Person 3 aligns best on core technical skills – they both use Python and React, which are central to the evaluated profile. While Person 1 matches two skills as well (Python and Node.js), Person 3’s overlap on React, a primary front-end technology, makes them a closer fit.",
+  "keyFactors": [
+    "Exact job title match (UX Designer)",
+    "Shared skill: Python",
+    "Shared skill: React"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact job title, has the highest skills overlap (AWS, SQL, Kubernetes), and even the same first name 'Joseph,' making them the closest match despite minor differences in summary.",
+  "keyFactors": [
+    "Skill overlap (AWS, SQL, Kubernetes)",
+    "Exact job title match (UX Designer)",
+    "Same first name 'Joseph'"
+  ]
+}{"bestMatch": 1, "similarity": 0.80, "reasoning": "Person 1 (Andre Lang) shares three out of four core technical skills (Docker, JavaScript, Kubernetes) with the target and holds an engineering role closely aligned with DevOps (Software Engineer vs DevOps Engineer). The shared first name (‘Andre’) further reinforces the similarity. While Person 3 matches the exact job title, they only share two skills and have a different name; Person 2 has fewer overlapping skills and a different functional focus (UX Designer).", "keyFactors": ["High skill overlap (Docker, JavaScript, Kubernetes)", "Similar engineering role", "Same first name"]}{
+  "bestMatch": 3,
+  "similarity": 0.40,
+  "reasoning": "Among the three candidates, Person 3 (Elizabeth Hudson) shares the greatest overlap in core front-end skills—React and CSS—with Kylie. Although Person 1 also matches two skills (Node.js and CSS), the combination of React and CSS more closely aligns with Kylie’s front-end/Product Manager toolkit. Additionally, both Kylie and Elizabeth’s summaries contain references to governance/political themes, providing a slight tie-breaker over Person 1.",
+  "keyFactors": [
+    "Skills overlap: React and CSS",
+    "Front-end focus consistent with Product Manager role",
+    "Shared governance/political theme in short summaries"
+  ]
+}{"bestMatch": 2, "similarity": 0.75, "reasoning": "Person 2 shares the same job title and two of the three core skills (Docker and JavaScript), indicating a strong overlap in technical expertise and domain, whereas the others share only one or none of these key skills.", "keyFactors": ["Skill overlap: Docker & JavaScript","Identical job title: Software Engineer","Broader DevOps/tooling match"]}{
+  "bestMatch": 1,
+  "similarity": 0.50,
+  "reasoning": "All candidates share the same job title, but Person 1 has the highest overlap in key skills with the target (React, Docker, SQL, JavaScript) yielding the highest overall similarity score.",
+  "keyFactors": [
+    "Exact job title match (DevOps Engineer)",
+    "Highest skill overlap (4 out of 6 skills)",
+    "Shared core technologies: React, Docker, SQL, JavaScript"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 shares three out of four of Brian’s core skills (AWS, Kubernetes, React) and has an identical job title (Software Engineer). While Person 3 also matches three skills, their title differs (DevOps Engineer). Person 2 matches fewer skills.",
+  "keyFactors": [
+    "Exact job title match",
+    "Shared skills: AWS, Kubernetes, React",
+    "Highest overall skill overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.60,
+  "reasoning": "Person 1 (Phillip Harris MD) has the same job title (Software Engineer), shares two core skills (Docker and CSS) and even echoes the 'TV' theme found in the target’s summary. Although Person 3 matches more on skills, their job title diverges and there’s no summary overlap. Person 2’s DevOps title and differing skill set put them slightly further away.",
+  "keyFactors": [
+    "Exact match on job title: Software Engineer",
+    "Shared skills: Docker and CSS",
+    "Both summaries reference TV"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.87,
+  "reasoning": "Person 1 shares the exact same job title and 5 out of 6 core skills with the target (Python, Kubernetes, Node.js, React, JavaScript), giving the highest overall overlap.",
+  "keyFactors": [
+    "Exact job title match",
+    "High skills overlap (5/6)",
+    "Strong skill set alignment"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.67,
+  "reasoning": "All three candidates have the same job title (Data Scientist). Person 1 shares only one of Diane’s skills (Python) while Persons 2 and 3 each share two. Between those two, Person 3 matches Python and Node.js—both core to Diane’s Data Science role—whereas Person 2 matches Node.js and JavaScript. Because Python is more central to data science, Person 3 is the closest overall.",
+  "keyFactors": [
+    "Same job title: Data Scientist",
+    "Shared skills: Python and Node.js",
+    "Relevance of matched skills to data science tasks"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 shares the exact same job title and has the highest skill overlap (JavaScript, Python, SQL) with Amber. Their background summaries are both concise and project-oriented, indicating a similar professional narrative.",
+  "keyFactors": [
+    "Exact match on job title (DevOps Engineer)",
+    "Three shared skills (JavaScript, Python, SQL)",
+    "Similar concise, project-focused summary style"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.68,
+  "reasoning": "All candidates share the same job title, but Person 2 has the highest overlap in technical skills (4 out of 6) and even a lexical overlap in the summary (“seven”).",
+  "keyFactors": [
+    "Skills overlap (Node.js, Kubernetes, HTML, React)",
+    "Exact job title match (Data Scientist)",
+    "Shared term in summary (“seven”)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.86,
+  "reasoning": "Person 1 shares 4 of the 5 core technical skills with Theresa Moore and holds the exact same job title, making them the closest fit among the three candidates.",
+  "keyFactors": [
+    "Exact job title match (Data Scientist)",
+    "High skill overlap (AWS, Docker, HTML, Python)",
+    "Broader complementary tech stack (React, CSS) indicating versatility"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.75,
+  "reasoning": "While Persons 2 and 3 each share three of the six skills and have the same job title as the target, Person 2’s overlap includes React and SQL—core technologies for a UX Designer’s front-end work—whereas Person 3’s overlaps are more back-end (Python, Node.js). Therefore Person 2 aligns more closely in both role and skillset.",
+  "keyFactors": [
+    "Job title match (UX Designer)",
+    "Shared front-end skills: React and SQL",
+    "Shared orchestration skill: Kubernetes"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.60,
+  "reasoning": "All three candidates share the same job title and each has one skill in common with James Cobb, but Christopher Wagner’s shared Python skill aligns more directly with James’s core technical profile. This gives him a slight edge in overall functional overlap.",
+  "keyFactors": [
+    "Exact job title match (UX Designer)",
+    "Python skill overlap",
+    "Overall technical skill alignment"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.78,
+  "reasoning": "Person 3 (Aaron Nelson) shares two out of three key skills (SQL and AWS) with the target and holds the same UX Designer role. Although the names differ and summaries are both terse, the stronger skills overlap makes Person 3 the closest match.",
+  "keyFactors": [
+    "SQL and AWS skill overlap",
+    "Same job title (UX Designer)",
+    "Highest overall skills match count"
+  ]
+}{"bestMatch":1,"similarity":0.60,"reasoning":"Person 1 shares the exact job title (Software Engineer) with Juan Martin, has a common key DevOps skill (Kubernetes), and their summaries both reference campaign/election terminology, yielding the highest overall affinity.","keyFactors":["Exact job title match","Shared Kubernetes skill","Summary topic overlap on campaign/election"]}{
+  "bestMatch": 3,
+  "similarity": 0.62,
+  "reasoning": "Person 3 has the highest overlap in key technical skills—4 out of 6 skills match (Node.js, AWS, JavaScript, Python)—and shares the same job title of Product Manager. Although the names differ, the strong skills alignment and similar summary style yield the highest overall similarity score.",
+  "keyFactors": [
+    "High skill overlap (4/6 matching skills)",
+    "Exact job title match (Product Manager)",
+    "Comparable summary style"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.4,
+  "reasoning": "All candidates share the same job title. Each has two skills in common with Brian (HTML, React, Kubernetes), but Brandon Melton (Person 3) matches HTML and React—core front-end skills—and has the fewest additional skills overall. That yields the highest Jaccard similarity (2/5 = 0.4).",
+  "keyFactors": [
+    "Exact job title match",
+    "Overlapping skills: HTML & React",
+    "Highest Jaccard similarity due to fewest extra skills"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.30,
+  "reasoning": "Person 2 (Johnny Dillon) shares the highest overlap in core technical skills (Docker, CSS) with the target, plus they hold the same UX Designer title. The other candidates either lack overlapping front-end skills or show almost no summary/content similarity.",
+  "keyFactors": [
+    "Shared UX Designer job title",
+    "Skill overlap: Docker",
+    "Skill overlap: CSS"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.60,
+  "reasoning": "Person 3 shares 3 out of 5 of Paula’s core technical skills—including JavaScript and SQL, which are Paula’s top proficiencies—whereas Person 1 also shares 3 skills but lacks Paula’s most essential languages, and Person 2 only overlaps on one skill despite matching the job title. Neither Person 1 nor Person 3 shares the job title, but Person 3’s skill set aligns most closely with Paula’s primary development stack.",
+  "keyFactors": [
+    "Highest technical overlap (JavaScript, SQL, Kubernetes)",
+    "Matches Paula’s top-listed skills",
+    "3/5 skill overlap vs. 1/5 or lower for others"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the reference on name, job title, skills and summary, resulting in a perfect match.",
+  "keyFactors": ["Name", "Job title", "Skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across name, job title, skills, and summary, yielding a perfect match.",
+  "keyFactors": [
+    "Identical name",
+    "Same job title",
+    "Exact skill set"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all evaluated fields (name, job title, skills, and summary), yielding a perfect match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Perfect overlap in skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target in all key attributes: name, job title, full skill set, and short summary. Persons 2 and 3 differ in one or more of these areas.",
+  "keyFactors": [
+    "Identical name",
+    "Exact match of all listed skills",
+    "Matching short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is effectively identical to the target across name, job title, skill set, and summary, yielding a perfect match.",
+  "keyFactors": ["name", "job title", "skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match to the target on name, job title, skills, and even the short summary, yielding a perfect similarity.",
+  "keyFactors": ["name", "job title", "skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical across all compared attributes—name, job title, skill set, and summary—resulting in a perfect match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Complete skills overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all evaluated fields—name, job title, skills, and summary—resulting in a perfect match.",
+  "keyFactors": ["Name exact match", "Job title exact match", "Skills exact match"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all compared attributes, including name, job title, full skill set, and summary text.",
+  "keyFactors": [
+    "Identical name",
+    "Identical job title",
+    "Identical skill set"
+  ]
+}{"bestMatch": 1, "similarity": 0.93, "reasoning": "Person 1 shares the exact same name, job title, and summary, and has a 75% skill overlap; the only difference is one extra skill (Python).", "keyFactors": ["Exact name match", "Identical job title", "High skills overlap"]}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact same name and identical short summary, and has a very high overlap in core skills (JavaScript, HTML, Docker). The only differences are an additional skill (Python) and a different job title, but these are minor compared to the strong match in identity, description, and primary technical abilities.",
+  "keyFactors": [
+    "Identical name",
+    "Identical summary text",
+    "High overlap in key skills (JavaScript, HTML, Docker)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all evaluated fields—name, job title, skills list, and summary—resulting in a perfect match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Complete skills overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact same name, skill set, and short summary with the target; the only discrepancy is the job title (UX Designer vs. Product Manager), yielding a very high similarity score.",
+  "keyFactors": [
+    "Exact skill overlap",
+    "Identical summary",
+    "Same name"
+  ]
+}{"bestMatch": 3, "similarity": 0.43, "reasoning": "All three candidates share the same job title, but Person 3 has the highest proportional overlap in key technical skills with Tracy (SQL, Kubernetes, React). Although none of the candidates know Python, Person 3’s 3-of-7 overlap yields the strongest Jaccard similarity score.", "keyFactors": ["Skill overlap of SQL, Kubernetes, React","Identical job title (DevOps Engineer)","Highest Jaccard index on skills (3/7 ≈ 0.43)"]}{
+  "bestMatch": 1,
+  "similarity": 0.75,
+  "reasoning": "Person 1 matches the target on name, skills and summary text exactly, only differing on job title. This yields the highest overall similarity.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares an identical name, the exact same skill set, and the very same summary text. The only discrepancy is the job title (Software Engineer vs. UX Designer), making this record the closest overall match.",
+  "keyFactors": [
+    "identical name",
+    "identical skills",
+    "identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.93,
+  "reasoning": "Person 1 shares the exact same name, the identical skill set (CSS, Kubernetes, AWS) and even the same summary text as the target. The only discrepancy is the job title (Product Manager vs UX Designer), making this record the closest overall match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills (CSS, Kubernetes, AWS)",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 matches exactly on name, skills, and summary. The only difference is the job title, making them the closest overall match.",
+  "keyFactors": ["Exact name match", "Identical skill set", "Identical summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.98,
+  "reasoning": "Person 1 shares the identical name, job title, and summary, and has a nearly identical skill set (only an extra React skill), making them overwhelmingly the closest match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Perfect summary match",
+    "Near-complete skill overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on name, job title, skills and summary, making it a perfect match to the target record.",
+  "keyFactors": ["name", "job title", "skills"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target record in every compared field: the same name, job title, complete overlap of skills, and an identical summary.",
+  "keyFactors": ["Name match", "Job title match", "Skills overlap"]
+}{"bestMatch":1,"similarity":1.0,"reasoning":"Person 1 is an exact match across all compared fields—including name, job title, skills, and summary—resulting in perfect similarity.","keyFactors":["identical name","identical job title","identical skill set"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 has the exact same name and summary, and all core skills (SQL, AWS, Kubernetes, Docker) match perfectly (with only one additional skill).",
+  "keyFactors": [
+    "Exact name match",
+    "Identical summary text",
+    "Complete core skill overlap"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.93,
+  "reasoning": "Person 1 shares the exact name and summary, and has full overlap on the original person’s core skills (React, CSS, AWS) plus one additional skill. Although the job title differs slightly, the perfect summary match and name match drive a high overall similarity.",
+  "keyFactors": [
+    "Identical summary text",
+    "Name match (Elizabeth Hudson)",
+    "Skill overlap: React, CSS, AWS"
+  ]
+}{"bestMatch": 1, "similarity": 0.73, "reasoning": "Person 1 shares the exact name and identical summary text with the target, plus three out of four skills (SQL, HTML, Kubernetes). Although the job title differs, the very high overlap in identity, summary, and skills makes Person 1 the closest match.", "keyFactors": ["same name", "identical summary", "shared skills: SQL, HTML, Kubernetes"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the evaluation record in name, job title, skills, and summary, resulting in a perfect match.",
+  "keyFactors": [
+    "Identical full name",
+    "Identical job title",
+    "Identical skill set"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 aligns on three major dimensions with the target – the exact same name, identical skill set, and matching summary text. The only difference is the job title, making this the closest overall match.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skills (CSS, Kubernetes, React)",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on all evaluated fields (name, job title, skills, and summary), resulting in a perfect similarity score.",
+  "keyFactors": [
+    "Identical skill set",
+    "Identical job title",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 matches exactly on name, skills and summary; only the job title differs (UX Designer vs Data Scientist), resulting in a very high overall similarity.",
+  "keyFactors": [
+    "Identical name",
+    "Exact skills overlap",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.96,
+  "reasoning": "Person 1 shares an exact match on name, job title, core skills and summary with the target profile, making it clearly the most similar. Person 3 is also similar in role and skills but differs in summary. Person 2 has low overlap across multiple fields.",
+  "keyFactors": [
+    "Exact match on name",
+    "Identical job title",
+    "Complete overlap in core skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.80,
+  "reasoning": "Person 1 matches 100% of the skill set, shares the exact same name and personal summary. The only mismatch is the job title (Data Scientist vs UX Designer), which reduces the overall score.",
+  "keyFactors": [
+    "100% overlap in skills",
+    "Identical personal summary",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares an identical skill set (JavaScript, Docker, HTML, Kubernetes, AWS, CSS), has the exact same summary text, and even the same name, differing only in job title. This makes them overwhelmingly more similar than the others.",
+  "keyFactors": [
+    "100% skill overlap",
+    "Identical short summary",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.91,
+  "reasoning": "Person 1 has the exact same skills and summary as the target and even matches the name exactly. The only difference is the job title, which slightly lowers the score from a perfect match.",
+  "keyFactors": [
+    "Identical skills",
+    "Identical summary",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.97,
+  "reasoning": "Person 1 shares the same name, identical job title, identical summary, and has a nearly identical skill set (only Node.js is extra), making it the closest match by far.",
+  "keyFactors": ["Identical name", "Identical summary", "High skill overlap"]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match across all evaluated fields (name, job title, skills, and summary).",
+  "keyFactors": [
+    "Exact same name",
+    "Identical job title: UX Designer",
+    "Skills match perfectly (JavaScript, React, HTML, Kubernetes, Docker)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on all key attributes—name, job title, skill set, and summary—making it identical to the target record.",
+  "keyFactors": ["Exact name match", "Identical job title", "Perfect overlap in skills", "Matching summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, skills, and summary with the target, differing only in job title. This makes them the most similar overall.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.80,
+  "reasoning": "Person 1 shares the exact same name and summary as the target and matches all four of the target’s skills (SQL, Python, HTML, Docker). Although the job title differs, the perfect alignment on identity and skill set outweighs the title mismatch. Persons 2 and 3 match the DevOps Engineer role but have fewer skills in common and different summaries, resulting in lower overall similarity scores.",
+  "keyFactors": [
+    "Identical name",
+    "Identical summary",
+    "100% skill overlap (SQL, Python, HTML, Docker)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches exactly on name, job title, skill set, and summary, making it a perfect match.",
+  "keyFactors": [
+    "Identical name",
+    "Identical skills",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 has the same name, identical skill set (CSS, SQL, AWS, Node.js) and exactly the same summary text. The only notable difference is the job title (Data Scientist vs DevOps Engineer), making this a near-perfect match.",
+  "keyFactors": [
+    "Identical name",
+    "Exact match on all skills",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target in name, job title, skill set, and summary text, yielding a perfect match.",
+  "keyFactors": [
+    "Name match",
+    "Job title match",
+    "Identical skill set"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.72,
+  "reasoning": "Person 3 shares the exact job title (DevOps Engineer) and all three core skills (Node.js, Python, CSS) with the target, and also brings additional relevant skills. Although the summary text differs, the strong alignment on role and skill set makes Person 3 the closest match overall.",
+  "keyFactors": [
+    "Job title match: both are DevOps Engineers",
+    "Complete overlap on core skills (Node.js, Python, CSS)",
+    "Additional relevant skills (AWS, SQL, JavaScript) enhancing fit"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the same name, exact skill set, and identical summary with the target record; the only discrepancy is the job title.",
+  "keyFactors": [
+    "Name match",
+    "Skills overlap",
+    "Summary match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact name and summary, has a 100% overlap in skills (Python, Docker, Kubernetes, AWS), and only differs in job title. The perfect match on name, skills, and summary gives it the highest similarity score.",
+  "keyFactors": [
+    "Exact name match",
+    "100% skills overlap",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target across all core attributes—name, job title, skills, and summary—yielding a perfect similarity score.",
+  "keyFactors": ["Identical name", "Identical skill set", "Identical summary"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.8,
+  "reasoning": "Person 1 shares the exact same name, identical skill set (all five skills match), and the same summary text. The only difference is the job title, which lowers the overall score slightly.",
+  "keyFactors": [
+    "Identical name",
+    "100% skills overlap",
+    "Exact same summary"
+  ]
+}{"bestMatch": 1, "similarity": 0.92, "reasoning": "Person 1 shares the exact same name, skill set, and summary with the target, only differing in job title. Persons 2 and 3 match on job title but have fewer overlapping skills and different summaries, making Person 1 the closest overall match.", "keyFactors": ["identical name","identical skills","identical summary"]}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact same name, skills list, and summary text as the target, with only the job title differing. Persons 2 and 3 have significantly fewer overlaps in skills, name, and summary.",
+  "keyFactors": [
+    "Identical skills (AWS, React, HTML, CSS, SQL)",
+    "Exact same summary text",
+    "Same name (Kristi Martin)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.85,
+  "reasoning": "Person 1 matches the target on name, full skills set, and summary verbatim. The only discrepancy is the job title, which lowers the score slightly.",
+  "keyFactors": [
+    "Identical skills set",
+    "Identical summary text",
+    "Same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact match to the target across all evaluated fields—name, job title, skill set, and summary are identical.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "100% overlap in skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact replica of the target across all evaluated fields (name, job title, skills, and summary), yielding a perfect match score.",
+  "keyFactors": [
+    "Exact match on name and job title",
+    "Identical skill set",
+    "Same short summary"
+  ]
+}{"bestMatch":1,"similarity":0.90,"reasoning":"Person 1 is by far the closest: the name, full skill set and even the short summary all match exactly. The only discrepancy is the job title (Product Manager vs. DevOps Engineer). Persons 2 and 3 share fewer skills, different names and different summaries.","keyFactors":["exact name match","identical skills","identical summary"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical to the target across all major attributes: the same name, job title, skill set, and summary.",
+  "keyFactors": ["Name match", "Job title match", "Skills match"]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares the exact same skill set (Docker, Python, AWS, HTML), has an identical summary and even the same name. The only difference is the job title (Software Engineer vs. UX Designer), which slightly reduces the score from a perfect match.",
+  "keyFactors": [
+    "100% skill overlap",
+    "Identical summary text",
+    "Exact name match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target record across all evaluated fields (name, job title, skills, and summary). No differences were found.",
+  "keyFactors": [
+    "Exact match in name",
+    "Exact match in job title",
+    "Exact match in skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is identical across all evaluated attributes (name, job title, skills, and summary), yielding a perfect match.",
+  "keyFactors": ["Identical name", "Identical job title", "Identical skills"]
+}{"bestMatch": 1, "similarity": 0.8, "reasoning": "Person 1 shares the exact same name and summary as the target and matches all three of the target’s core skills (Python, Docker, SQL), only differing in job title. Those strong matches outweigh the one mismatch, making Person 1 the closest overall.", "keyFactors": ["Identical name", "Identical summary", "Full core skills overlap"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches perfectly on all key attributes—name, job title, skill set, and summary—resulting in a complete overlap with the target profile.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical job title",
+    "Full skills overlap",
+    "Identical short summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 matches on name, skills and summary, with only the job title differing, making it by far the closest profile to the target.",
+  "keyFactors": [
+    "identical skills",
+    "identical short summary",
+    "same name"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares an identical skill set (100% overlap), has the exact same summary text, and even the same name. The only discrepancy is the job title (Data Scientist vs. Software Engineer), which incurs a small penalty.",
+  "keyFactors": [
+    "100% skills overlap",
+    "Identical summary text",
+    "Exact name match"
+  ]
+}{"bestMatch": 1, "similarity": 1.0, "reasoning": "Person 1 is an exact duplicate of the target record—same name, job title, skills list, and summary—yielding a perfect similarity.", "keyFactors": ["Name match", "Job title match", "Skills match"]}{
+  "bestMatch": 1,
+  "similarity": 0.92,
+  "reasoning": "Person 1 shares an identical skill set (Python, Kubernetes, React, SQL) and the exact same summary and name as the target. The only notable difference is the job title (UX Designer vs. DevOps Engineer), making this person the closest overall match.",
+  "keyFactors": [
+    "100% skills overlap",
+    "Identical summary text",
+    "Exact name match"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.95,
+  "reasoning": "Person 1 shares the exact same name, all three skills, and the identical summary. The only difference is the job title (DevOps Engineer vs. Software Engineer), making it the closest match by far.",
+  "keyFactors": [
+    "Identical name",
+    "Exact skill overlap (React, SQL, HTML)",
+    "Matching summary text"
+  ]
+}{"bestMatch": 1, "similarity": 0.90, "reasoning": "Person 1 shares the exact same name and summary, and has 100% overlap in the listed skills. The only difference is the job title (Software Engineer vs UX Designer), which slightly lowers the score.", "keyFactors": ["Exact name match", "Complete skills overlap", "Identical summary"]}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 matches the target exactly on name, job title, skill set (same six technologies), and summary text, yielding a perfect match.",
+  "keyFactors": [
+    "Identical skill set",
+    "Identical job title",
+    "Identical summary text"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 1.0,
+  "reasoning": "Person 1 is an exact duplicate of the target: same name, same job title, identical skill set (just reordered), and the same summary text. No differences were found.",
+  "keyFactors": [
+    "Identical name",
+    "Identical skill set",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 has the exact same name, an identical set of technical skills, and the same summary text. The only discrepancy is the job title (UX Designer vs Data Scientist), which slightly reduces the overall similarity.",
+  "keyFactors": [
+    "Exact name match",
+    "Identical skill set",
+    "Identical summary"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.97,
+  "reasoning": "Person 1 shares the exact same name, the full set of skills, and the identical short summary. Only the job title differs (DevOps Engineer vs. Software Engineer), which slightly lowers but does not outweigh the other perfect matches.",
+  "keyFactors": [
+    "Identical name",
+    "All three skills match (Kubernetes, React, JavaScript)",
+    "Exact same short summary"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.85,
+  "reasoning": "Person 3 (Angela Martinez) shares the same DevOps Engineer title, has three out of four matching core skills (AWS, Python, CSS), and even shows a strong name similarity (“Angel” vs. “Angela”). Although Person 1 also matches three skills, Person 3’s match on Python (a critical skill for the original record) and the name affinity give her the edge.",
+  "keyFactors": [
+    "High overlap in core skills (AWS, Python, CSS)",
+    "Exact match on job title (DevOps Engineer)",
+    "Strong name similarity (Angel vs. Angela)"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.67,
+  "reasoning": "All three candidates share the same job title, but Person 3 (Lisa Huff) has the highest skills overlap with Tim Reeves—4 out of 5 skills match—resulting in the highest Jaccard similarity score among the three.",
+  "keyFactors": [
+    "High skills overlap (Docker, SQL, HTML, AWS)",
+    "Exact job title match (DevOps Engineer)",
+    "Highest Jaccard similarity score (4/6 ≈ 0.67)"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.75,
+  "reasoning": "All three candidates share the same job title, but Person 2 has the highest overlap in technical skills (Docker, SQL, Node.js) with the target’s skill set of four core technologies. Persons 1 and 3 each overlap on only two skills, and none of the summaries provide meaningful distinguishing features.",
+  "keyFactors": [
+    "Job title match (DevOps Engineer)",
+    "Shared skills: Docker",
+    "Shared skills: Node.js",
+    "Shared skills: SQL"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares all three core skills (Kubernetes, AWS, SQL), has the identical job title, and even a very similar name. The extra skills (Docker, React) are a bonus but do not dilute the strong overlap.",
+  "keyFactors": [
+    "Skill overlap (3/3 core skills)",
+    "Exact job title match (UX Designer)",
+    "High name similarity (Joseph)"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.4,
+  "reasoning": "All three candidates share the same job title, but Person 3 has the highest proportional overlap in skills with the target. Tracey has {JavaScript, Kubernetes, AWS}. Person 3 shares Kubernetes and AWS out of a total of 5 distinct skills (2/5 = 0.4). Person 2 matches 2 out of 6 (0.33) and Person 1 matches only 1 out of 6 (0.17).",
+  "keyFactors": [
+    "Exact job title match (UX Designer)",
+    "Shared skill: Kubernetes",
+    "Shared skill: AWS"
+  ]
+}Here’s the comparison result:
+
+{
+  "bestMatch": 2,
+  "similarity": 0.67,
+  "reasoning": "Person 2 shares two out of three core skills (Docker and JavaScript) with Jeremy and holds the same job title, making them the most similar candidate.",
+  "keyFactors": [
+    "Shared skills: Docker and JavaScript",
+    "Same job title: Software Engineer",
+    "Strong technical domain overlap"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.25,
+  "reasoning": "All candidates share the same job title (UX Designer), but Tracy Brown (Person 3) shares two core skills (Python and React) out of five with Grace Mason, yielding the highest overlap. Although Kayla Jones also shares two skills (Python and Node.js), Grace’s profile places slightly more emphasis on front-end technologies like React, making Tracy the closest match overall.",
+  "keyFactors": [
+    "Shared job title (UX Designer)",
+    "Common skills: Python and React",
+    "Overlap in front-end focus"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.40,
+  "reasoning": "Person 3 shares two of the three core skills (CSS and React) with Kylie, yielding the highest overlap ratio among the three candidates. All candidates have the same job-title mismatch and generic summaries, so skill overlap drives the decision.",
+  "keyFactors": [
+    "Shared CSS skill",
+    "Shared React skill",
+    "Highest overall skill overlap"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.80,
+  "reasoning": "Jeffrey Hawkins shares three of the four key technical skills (Python, Docker, JavaScript) with Dr. Thomas Hoffman—more than any other candidate. Despite a slightly different title, his deep overlap in core software technologies makes him the closest match overall.",
+  "keyFactors": [
+    "High skill overlap (Python, Docker, JavaScript)",
+    "Broad software engineering domain alignment",
+    "Comprehensive technical stack similarity"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.86,
+  "reasoning": "Person 1 and Person 3 both share 4 of Theresa’s 5 skills (80%), but Person 1 also has the same job title (Data Scientist), giving a higher overall match.",
+  "keyFactors": [
+    "High skill overlap (Docker, AWS, HTML, Python)",
+    "Exact job title match (Data Scientist)",
+    "Breadth of shared technical skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.90,
+  "reasoning": "Person 1 shares the exact same name, an identical skill set (CSS, Kubernetes, Docker), and the summary text is a word-for-word match. The only discrepancy is the job title (Software Engineer vs. UX Designer).",
+  "keyFactors": [
+    "identical name",
+    "identical skills",
+    "identical summary"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.67,
+  "reasoning": "All candidates share the same job title, so the deciding factor is skill overlap. Person 2 shares four out of six key skills (Kubernetes, React, AWS, CSS), which is higher than Person 1 (three overlaps) and Person 3 (two overlaps).",
+  "keyFactors": [
+    "Shared skills: Kubernetes, React, AWS, CSS",
+    "Job title match: UX Designer",
+    "Skill overlap ratio: 4/6"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.87,
+  "reasoning": "All candidates share the same job title, but Person 3 shares two core technical skills (Node.js and Python) and even mentions “computer” in their summary, which aligns more closely with a data scientist’s profile. While Person 2 also has two overlapping skills, their summary lacks a direct tech reference.",
+  "keyFactors": [
+    "Job title alignment (Data Scientist)",
+    "Skill overlap: Node.js and Python",
+    "Summary technical reference (‘computer’)"
+  ]
+}{"bestMatch": 1, "similarity": 0.75, "reasoning": "Person 1 shares all three of Michelle’s core skills (AWS, JavaScript, CSS), shows a similar topic in the summary (mentions of wife/marriage), and works in a close technical domain (DevOps Engineer vs Software Engineer). Although the job title isn’t an exact match, the strong skill and summary overlap makes Person 1 the most similar.", "keyFactors": ["Skill overlap: AWS, JavaScript, CSS", "Summary keyword overlap: wife/marriage", "Close engineering domain (DevOps vs Software)"]}{
+  "bestMatch": 1,
+  "similarity": 0.67,
+  "reasoning": "All three candidates share the same DevOps Engineer title, but Person 1 has the highest overlap with the target’s skill set—4 out of 6 skills (Docker, SQL, React, JavaScript)—and the closest overall profile alignment.",
+  "keyFactors": [
+    "Exact match on job title",
+    "High skill overlap (Docker, SQL, React, JavaScript)",
+    "Strong overall skills alignment"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.4,
+  "reasoning": "Angelica Clark (Person 2) shares the exact same job title “Data Scientist” and has the highest skills overlap—2 out of 3 core skills (Node.js and AWS)—resulting in the highest overall similarity score compared to the other candidates.",
+  "keyFactors": [
+    "Exact job title match",
+    "Skills overlap: Node.js and AWS",
+    "Highest Jaccard similarity of skills"
+  ]
+}{"bestMatch":1,"similarity":0.71,"reasoning":"Person 1 shares five out of the seven unique skills (React, CSS, HTML, Node.js, Python) with the target and has the same job title, giving the highest overall overlap.","keyFactors":["High skill overlap (5/7)","Exact job title match","Highest Jaccard similarity among candidates"]}{
+  "bestMatch": 3,
+  "similarity": 0.50,
+  "reasoning": "Person 3 (Victoria Patrick) has the highest overlap in core technical skills (AWS, Node.js, Python, and JavaScript) with the target, shares the same job title, and yields the strongest overall similarity score.",
+  "keyFactors": [
+    "Overlap of 4 out of 6 skills (AWS, Node.js, Python, JavaScript)",
+    "Identical job title: Product Manager",
+    "Highest Jaccard similarity score among the candidates"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.56,
+  "reasoning": "Person 1 (Andre Lang) overlaps most strongly: they share three core skills (JavaScript, Docker, Kubernetes), both hold “Engineer” roles, and even the first name is the same, yielding the highest overall similarity.",
+  "keyFactors": [
+    "Shared skills: JavaScript, Docker, Kubernetes",
+    "Job title similarity: both include “Engineer”",
+    "Name similarity: same first name"
+  ]
+}{"bestMatch": 2,  
+ "similarity": 0.60,  
+ "reasoning": "All three candidates share the same DevOps Engineer title, but Person 2 has the highest skills overlap with the target (4 out of 5 skills in common: Docker, SQL, HTML, React). Person 1 and Person 3 each share only 2 skills. The summaries contain largely generic terms with minimal overlap, so the decisive factor is the strong technical skill match.",  
+ "keyFactors": [  
+   "Exact job title match (DevOps Engineer)",  
+   "High skills overlap (4/5 shared skills)",  
+   "Relevant DevOps tooling experience (Docker, SQL, HTML, React)"  
+ ]  
+}{
+  "bestMatch": 1,
+  "similarity": 0.71,
+  "reasoning": "All candidates share the same job title, but Person 1 has the highest overlap in core technical skills (5 out of 7 unique skills) compared to the others.",
+  "keyFactors": [
+    "Exact match in job title (Product Manager)",
+    "Highest skills overlap (Node.js, React, Kubernetes, Python, JavaScript)",
+    "Smallest number of mismatched/unique skills"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.8,
+  "reasoning": "Person 1 (Lauren Rivera) is also a Software Engineer and shares three key skills (AWS, Kubernetes, React) with Brian, yielding the highest overall match.",
+  "keyFactors": [
+    "Job title match (Software Engineer)",
+    "AWS skill overlap",
+    "Kubernetes skill overlap"
+  ]
+}{"bestMatch":2,"similarity":0.67,"reasoning":"All candidates share the same job title and have exactly one overlapping skill with James. Christopher Wagner (Person 2) additionally mirrors the unusual summary keyword “drug,” which aligns more closely with James’s abstract description than the others.","keyFactors":["Job title match (UX Designer)","Python skill overlap","Shared summary keyword “drug”"]}{
+  "bestMatch": 2,
+  "similarity": 0.5,
+  "reasoning": "Person 2 has the highest overlap in technical skills (4 out of 8 unique skills), shares the same job title, and aligns closely on full-stack technologies, yielding the highest Jaccard similarity score among the three.",
+  "keyFactors": [
+    "4 shared skills (Node.js, Kubernetes, HTML, React)",
+    "Same job title: Data Scientist",
+    "Highest Jaccard similarity (0.5)"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.67,
+  "reasoning": "All three candidates share two out of three skills with the target, but Person 3 (Brandon Melton) aligns on both front-end technologies (HTML and React) which are core to the target’s profile and has the highest normalized overlap when accounting for total skill set size.",
+  "keyFactors": [
+    "Product Manager role match",
+    "Shared skills: HTML and React",
+    "Highest normalized skill overlap"
+  ]
+}{"bestMatch": 1, "similarity": 0.82, "reasoning": "All three candidates share the same job title, so the primary differentiator is skills overlap. Person 1 matches on three key skills (JavaScript, Python, SQL), whereas Persons 2 and 3 each match only two. Although all summaries are filler-like and do not contribute strongly to differentiation, Person 1’s broader technical stack indicates a closer overall fit.", "keyFactors": ["Highest number of shared skills (JavaScript, Python, SQL)", "Exact job title match (DevOps Engineer)", "Broader additional skillset indicating stronger technical alignment"]}{
+  "bestMatch": 2,
+  "similarity": 0.35,
+  "reasoning": "Person 2 (Johnny Dillon) shares two out of five key skills (Docker, CSS) with Jacob Williams for a Jaccard skill similarity of 2/6 ≈ 0.33, plus an exact job title match. Although Person 1 has some summary word overlap (painting, daughter), they have no skill overlap, and Person 3 only matches one skill. Overall, Person 2 achieves the highest combined similarity.",
+  "keyFactors": [
+    "Skill overlap: Docker & CSS",
+    "Exact job title match: UX Designer",
+    "Highest Jaccard score among candidates"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.58,
+  "reasoning": "Person 2 shares the exact job title “Software Engineer” with Paula, giving a strong alignment in role. While the raw skill overlap is modest (Node.js in common), it still ties directly to the core platform expertise. Their short summaries both include the term “coach,” suggesting a similar narrative style or focus on mentorship. Those factors outweigh slightly higher pure skill overlap in the other profiles.",
+  "keyFactors": [
+    "Exact job title match (Software Engineer)",
+    "Shared core skill: Node.js",
+    "Common summary keyword: “coach”"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.64,
+  "reasoning": "Person 2 shares the same job title (UX Designer) and overlaps on three core skills (SQL, React, Kubernetes), which aligns closely with the evaluated person’s UX‐focused tech stack. Although both Person 2 and Person 3 have three skill overlaps, Person 2’s front‐end framework (React) is more directly relevant to UX design, giving them the edge.",
+  "keyFactors": [
+    "Job title match (UX Designer)",
+    "Skill overlap: SQL, React, Kubernetes",
+    "Relevance of React for UX design"
+  ]
+}{
+  "bestMatch": 3,
+  "similarity": 0.75,
+  "reasoning": "All three candidates share the same job title, but Person 3 has the strongest overlap in core skills (SQL and AWS) and brings additional relevant technologies, whereas Person 1 only overlaps on AWS and Person 2 has no matching skills. Although Person 1 shares a lexical match in the summary (‘account’) and a similar first name, the breadth and depth of skill alignment make Person 3 the closest match overall.",
+  "keyFactors": [
+    "Job title match (UX Designer)",
+    "Shared skills: SQL and AWS",
+    "Highest total overlap in relevant skills"
+  ]
+}{
+  "bestMatch": 2,
+  "similarity": 0.60,
+  "reasoning": "While Person 1 shares the exact job title and some political summary cues, Person 2 matches three out of four core skills (Python, SQL, CSS) and works in a closely related engineering domain, giving a stronger overall technical and thematic alignment with Juan Martin.",
+  "keyFactors": [
+    "High skills overlap (3 of 4 skills in common)",
+    "Closely related engineering role (DevOps vs. Software Engineer)",
+    "Shared thematic elements in summary (political/law context)"
+  ]
+}{
+  "bestMatch": 1,
+  "similarity": 0.93,
+  "reasoning": "Person 1 shares the exact name, identical skill set (SQL, AWS, JavaScript, Kubernetes) and the same summary text. The only difference is the job title (Product Manager vs. Data Scientist), resulting in a very high overall similarity.",
+  "keyFactors": [
+    "identical name",
+    "identical skills",
+    "identical summary"
+  ]
+}

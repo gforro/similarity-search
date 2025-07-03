@@ -8,8 +8,16 @@ const Person = z.object({
   skills: z.array(z.string()),
 });
 
+export const SimilarityResponse = z.object({
+  bestMatch: z.number(),
+  similarity: z.number(),
+  diffSummary: z.string(),
+});
+
 const DataFile = z.array(Person);
 
 export type PersonType = z.infer<typeof Person>;
+
+export type SimilarityResponseType = z.infer<typeof SimilarityResponse>;
 
 export { Person, DataFile };

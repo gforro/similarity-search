@@ -1,11 +1,13 @@
-export class NoRateLimit {
-  calculateWaitTime(token: number): number {
+import { RateLimitHandler } from "./types";
+
+export class NoRateLimit implements RateLimitHandler {
+  calculateWaitTime(): number {
     return 0;
   }
-  startRequest(estimatedToken: number): void {
+  startRequest(): void {
     // do nothing
   }
-  updateLimits(responseHeaders: Headers): void {
+  processResponse(): void {
     // do nothing
   }
 }
