@@ -161,6 +161,7 @@ The application follows a modular architecture with clear separation of concerns
 - `npm run start` - Run the compiled JavaScript
 - `npm run lint` - Run ESLint on source files
 - `npm run lint:fix` - Auto-fix linting issues
+- `npm run test` - Launch node tests
 
 ## Rate Limiting
 
