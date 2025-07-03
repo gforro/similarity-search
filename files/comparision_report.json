@@ -23,8 +23,8 @@
         "HTML"
       ]
     },
-    "similarity": 0.6,
-    "diffSummary": "Title changed from UX Designer to Product Manager; Skills added: Node.js"
+    "similarity": 0.7,
+    "diffSummary": "Job title changed from UX Designer to Product Manager; Skills added Node.js"
   },
   {
     "recordToMatch": {
@@ -84,8 +84,8 @@
         "React"
       ]
     },
-    "similarity": 0.8,
-    "diffSummary": "Title changed from DevOps Engineer to Product Manager; added skill React."
+    "similarity": 0.7,
+    "diffSummary": "Title changed from DevOps Engineer to Product Manager; Skills updated to include React"
   },
   {
     "recordToMatch": {
@@ -143,7 +143,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences observed; record 1 is identical to the evaluated person."
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -168,7 +168,7 @@
         "CSS"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.75,
     "diffSummary": "Job title changed from UX Designer to Product Manager"
   },
   {
@@ -195,7 +195,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.9,
+    "similarity": 0.88,
     "diffSummary": "Skills updated from [Node.js, CSS, HTML] to [Python, CSS, Node.js, HTML]"
   },
   {
@@ -228,7 +228,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences found"
   },
   {
     "recordToMatch": {
@@ -258,7 +258,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "Records are identical; no differences found."
+    "diffSummary": "No differences; records are identical in name, title, skills, and summary."
   },
   {
     "recordToMatch": {
@@ -288,7 +288,7 @@
       ]
     },
     "similarity": 0.43,
-    "diffSummary": "Skills updated: removed Python and Docker; added Node.js and CSS."
+    "diffSummary": "Skills updated: removed Docker and Python; added Node.js and CSS"
   },
   {
     "recordToMatch": {
@@ -315,7 +315,7 @@
         "SQL"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.9,
     "diffSummary": "Job title changed from Product Manager to UX Designer"
   },
   {
@@ -331,18 +331,19 @@
       ]
     },
     "bestMatch": {
-      "id": 115260,
-      "name": "Mr. Michael Garza",
-      "title": "Software Engineer",
-      "summary": "Resource hold increase practice. Organization recognize civil. Pm her then nothing increase. The nothing sign remember close ask.",
+      "id": 23127,
+      "name": "Andre Miller",
+      "title": "UX Designer",
+      "summary": "Tough whether address senior. Including month matter environmental issue recently until.",
       "skills": [
         "React",
+        "HTML",
         "Python",
-        "HTML"
+        "Kubernetes"
       ]
     },
-    "similarity": 0.95,
-    "diffSummary": "Job title changed from UX Designer to Software Engineer"
+    "similarity": 0.75,
+    "diffSummary": "Skills updated from Python, React, HTML to Python, React, HTML, Kubernetes"
   },
   {
     "recordToMatch": {
@@ -374,7 +375,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences found"
   },
   {
     "recordToMatch": {
@@ -403,7 +404,7 @@
         "React"
       ]
     },
-    "similarity": 0.9,
+    "similarity": 0.8,
     "diffSummary": "Job title changed from DevOps Engineer to Product Manager"
   },
   {
@@ -434,7 +435,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "Records are identical"
   },
   {
     "recordToMatch": {
@@ -464,7 +465,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences found"
   },
   {
     "recordToMatch": {
@@ -491,7 +492,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.92,
+    "similarity": 0.98,
     "diffSummary": "Job title changed from Data Scientist to Software Engineer"
   },
   {
@@ -518,7 +519,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "Profiles are identical; no differences found."
+    "diffSummary": "Records are identical"
   },
   {
     "recordToMatch": {
@@ -544,7 +545,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences; the records are identical."
+    "diffSummary": "Records are identical; no differences."
   },
   {
     "recordToMatch": {
@@ -570,8 +571,8 @@
         "HTML"
       ]
     },
-    "similarity": 0.75,
-    "diffSummary": "Title changed from Data Scientist to DevOps Engineer; Skills updated from [JavaScript, HTML, Docker] to [Docker, Python, JavaScript, HTML]"
+    "similarity": 0.7,
+    "diffSummary": "Job title changed from Data Scientist to DevOps Engineer; added skill Python"
   },
   {
     "recordToMatch": {
@@ -597,8 +598,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.95,
-    "diffSummary": "Skills updated from [Node.js, Python, SQL] to [Python, AWS, Node.js, SQL]"
+    "similarity": 0.94,
+    "diffSummary": "Skills updated from [Node.js, Python, SQL] to [Python, AWS, Node.js, SQL] (added AWS)"
   },
   {
     "recordToMatch": {
@@ -627,7 +628,7 @@
       ]
     },
     "similarity": 0.95,
-    "diffSummary": "Skills updated: added React"
+    "diffSummary": "Skills updated from [JavaScript, HTML, Kubernetes, CSS] to [JavaScript, HTML, Kubernetes, CSS, React]"
   },
   {
     "recordToMatch": {
@@ -655,8 +656,8 @@
         "React"
       ]
     },
-    "similarity": 0.94,
-    "diffSummary": "Skills updated: added React"
+    "similarity": 0.95,
+    "diffSummary": "Added skill React"
   },
   {
     "recordToMatch": {
@@ -682,8 +683,8 @@
         "CSS"
       ]
     },
-    "similarity": 0.95,
-    "diffSummary": "Job title changed from Data Scientist to UX Designer; added skill Kubernetes"
+    "similarity": 0.85,
+    "diffSummary": "Job title changed from Data Scientist to UX Designer; Skill added: Kubernetes"
   },
   {
     "recordToMatch": {
@@ -708,7 +709,7 @@
         "React"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.75,
     "diffSummary": "Job title changed from Product Manager to Data Scientist"
   },
   {
@@ -740,7 +741,7 @@
         "Node.js"
       ]
     },
-    "similarity": 0.9,
+    "similarity": 0.75,
     "diffSummary": "Job title changed from UX Designer to Data Scientist"
   },
   {
@@ -797,7 +798,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences; records are identical."
   },
   {
     "recordToMatch": {
@@ -853,7 +854,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences; records are identical."
+    "diffSummary": "No differences – records are identical."
   },
   {
     "recordToMatch": {
@@ -884,7 +885,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.92,
     "diffSummary": "Job title changed from UX Designer to Product Manager"
   },
   {
@@ -963,7 +964,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences found."
   },
   {
     "recordToMatch": {
@@ -995,7 +996,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "Records are identical"
   },
   {
     "recordToMatch": {
@@ -1021,8 +1022,8 @@
         "JavaScript"
       ]
     },
-    "similarity": 0.75,
-    "diffSummary": "Title changed from Product Manager to DevOps Engineer; JavaScript skill removed."
+    "similarity": 0.63,
+    "diffSummary": "Job title changed from DevOps Engineer to Product Manager; Skills updated (added JavaScript)"
   },
   {
     "recordToMatch": {
@@ -1050,8 +1051,8 @@
         "Kubernetes"
       ]
     },
-    "similarity": 0.7,
-    "diffSummary": "Job title changed from Product Manager to Software Engineer; Added skill JavaScript"
+    "similarity": 0.85,
+    "diffSummary": "Title changed from Product Manager to Software Engineer; Skills added JavaScript"
   },
   {
     "recordToMatch": {
@@ -1108,7 +1109,7 @@
       ]
     },
     "similarity": 0.94,
-    "diffSummary": "Skills updated from [React, SQL, JavaScript] to [React, Node.js, JavaScript, SQL]"
+    "diffSummary": "Skills updated from React, SQL, JavaScript to React, Node.js, JavaScript, SQL"
   },
   {
     "recordToMatch": {
@@ -1135,7 +1136,7 @@
         "React"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.8,
     "diffSummary": "Job title changed from Software Engineer to Product Manager"
   },
   {
@@ -1168,7 +1169,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "All fields identical"
   },
   {
     "recordToMatch": {
@@ -1198,7 +1199,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "No differences (records are identical)"
   },
   {
     "recordToMatch": {
@@ -1223,7 +1224,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.9,
     "diffSummary": "Job title changed from Product Manager to DevOps Engineer"
   },
   {
@@ -1251,7 +1252,7 @@
         "SQL"
       ]
     },
-    "similarity": 0.98,
+    "similarity": 0.92,
     "diffSummary": "Job title changed from Data Scientist to DevOps Engineer"
   },
   {
@@ -1282,8 +1283,8 @@
         "React"
       ]
     },
-    "similarity": 0.8,
-    "diffSummary": "Job title changed from Data Scientist to Product Manager; added skill Docker"
+    "similarity": 0.95,
+    "diffSummary": "Title changed from Data Scientist to Product Manager; added skill Docker"
   },
   {
     "recordToMatch": {
@@ -1308,7 +1309,7 @@
         "AWS"
       ]
     },
-    "similarity": 0.8,
+    "similarity": 0.9,
     "diffSummary": "Title changed from DevOps Engineer to Product Manager"
   },
   {
@@ -1335,7 +1336,7 @@
       ]
     },
     "similarity": 0.95,
-    "diffSummary": "Job title changed from 'UX Designer' to 'Product Manager'"
+    "diffSummary": "Job title changed from UX Designer to Product Manager"
   },
   {
     "recordToMatch": {
@@ -1364,7 +1365,7 @@
         "CSS"
       ]
     },
-    "similarity": 0.9,
+    "similarity": 0.98,
     "diffSummary": "Job title changed from Product Manager to UX Designer"
   },
   {
@@ -1394,7 +1395,7 @@
         "SQL"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.75,
     "diffSummary": "Job title changed from Software Engineer to UX Designer"
   },
   {
@@ -1421,7 +1422,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences"
+    "diffSummary": "Skills list ordering differs (evaluated: Python, Node.js, HTML; match: Node.js, Python, HTML)"
   },
   {
     "recordToMatch": {
@@ -1447,8 +1448,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.69,
-    "diffSummary": "Title changed from UX Designer to Data Scientist; Skill Node.js added"
+    "similarity": 0.68,
+    "diffSummary": "Title changed from UX Designer to Data Scientist; Skills updated from [Python, Docker, SQL] to [Node.js, Docker, Python, SQL]"
   },
   {
     "recordToMatch": {
@@ -1475,7 +1476,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.97,
     "diffSummary": "Job title changed from UX Designer to Software Engineer"
   },
   {
@@ -1504,7 +1505,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences."
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -1535,7 +1536,7 @@
         "React"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.8,
     "diffSummary": "Job title changed from Software Engineer to Data Scientist"
   },
   {
@@ -1591,8 +1592,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.75,
-    "diffSummary": "Title changed from DevOps Engineer to UX Designer"
+    "similarity": 0.9,
+    "diffSummary": "Job title changed from DevOps Engineer to UX Designer"
   },
   {
     "recordToMatch": {
@@ -1624,7 +1625,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences – records are identical."
+    "diffSummary": "No differences found."
   },
   {
     "recordToMatch": {
@@ -1652,7 +1653,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences; records are identical."
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -1705,7 +1706,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.9,
+    "similarity": 0.92,
     "diffSummary": "Job title changed from UX Designer to Software Engineer"
   },
   {
@@ -1733,8 +1734,8 @@
         "JavaScript"
       ]
     },
-    "similarity": 0.8,
-    "diffSummary": "Title changed from Data Scientist to UX Designer"
+    "similarity": 0.75,
+    "diffSummary": "Job title changed from Data Scientist to UX Designer"
   },
   {
     "recordToMatch": {
@@ -1762,7 +1763,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "Records are identical; no differences found."
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -1788,7 +1789,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "Records are identical."
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -1844,7 +1845,7 @@
         "HTML"
       ]
     },
-    "similarity": 0.95,
+    "similarity": 0.97,
     "diffSummary": "Job title changed from Software Engineer to DevOps Engineer"
   },
   {
@@ -1877,7 +1878,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "No differences – all fields match exactly."
+    "diffSummary": "Records are identical."
   },
   {
     "recordToMatch": {
@@ -1933,7 +1934,7 @@
       ]
     },
     "similarity": 1,
-    "diffSummary": "Skills order changed from \"Kubernetes, Python, React, Docker\" to \"Kubernetes, React, Docker, Python\""
+    "diffSummary": "No differences"
   },
   {
     "recordToMatch": {
@@ -1958,7 +1959,7 @@
         "Docker"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.9,
     "diffSummary": "Job title changed from UX Designer to Software Engineer"
   },
   {
@@ -1984,7 +1985,7 @@
         "JavaScript"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.9,
     "diffSummary": "Job title changed from Software Engineer to DevOps Engineer"
   },
   {
@@ -2013,8 +2014,8 @@
         "React"
       ]
     },
-    "similarity": 0.8,
-    "diffSummary": "Skills changed: removed Python; added Node.js and React."
+    "similarity": 0.5,
+    "diffSummary": "Skills added: Node.js, React; Skills removed: Python"
   },
   {
     "recordToMatch": {
@@ -2041,7 +2042,7 @@
       ]
     },
     "similarity": 0.4,
-    "diffSummary": "Skills updated: removed JavaScript; added React and CSS."
+    "diffSummary": "Skills updated from [JavaScript, Kubernetes, AWS] to [Kubernetes, React, AWS, CSS]"
   },
   {
     "recordToMatch": {
@@ -2070,8 +2071,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.73,
-    "diffSummary": "Skills added: Python; Skills missing: React"
+    "similarity": 0.67,
+    "diffSummary": "Skills updated: removed React, added Python"
   },
   {
     "recordToMatch": {
@@ -2087,18 +2088,21 @@
       ]
     },
     "bestMatch": {
-      "id": 21687,
-      "name": "Mark Taylor",
-      "title": "DevOps Engineer",
-      "summary": "See different decide trip total another site car. Image throughout western world area. There certainly walk camera debate western store.",
+      "id": 116450,
+      "name": "Andre Lang",
+      "title": "Software Engineer",
+      "summary": "Ask benefit ago again identify real. Follow so second.",
       "skills": [
+        "SQL",
         "Docker",
-        "CSS",
-        "React"
+        "Node.js",
+        "JavaScript",
+        "Kubernetes",
+        "CSS"
       ]
     },
-    "similarity": 0.7,
-    "diffSummary": "Name changed from Andre Ray to Mark Taylor; Skills removed: JavaScript, Kubernetes; Skills added: CSS."
+    "similarity": 0.75,
+    "diffSummary": "Job title changed from DevOps Engineer to Software Engineer; Skills updated: removed React, added SQL, Node.js, CSS"
   },
   {
     "recordToMatch": {
@@ -2127,8 +2131,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.4,
-    "diffSummary": "Skills updated: removed JavaScript and HTML; added Kubernetes, Docker, and SQL."
+    "similarity": 0.25,
+    "diffSummary": "Skills updated from [Kubernetes, Docker, SQL] to [JavaScript, HTML, Node.js]"
   },
   {
     "recordToMatch": {
@@ -2158,7 +2162,7 @@
       ]
     },
     "similarity": 0.43,
-    "diffSummary": "Skills updated: added HTML, React, JavaScript; removed Python"
+    "diffSummary": "Skills added: HTML, React, JavaScript; removed: Python"
   },
   {
     "recordToMatch": {
@@ -2185,8 +2189,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.53,
-    "diffSummary": "Skills changed: removed Python and JavaScript, added React and SQL"
+    "similarity": 0.67,
+    "diffSummary": "Skills updated: removed Python and JavaScript; added React and SQL"
   },
   {
     "recordToMatch": {
@@ -2213,7 +2217,7 @@
         "Kubernetes"
       ]
     },
-    "similarity": 0.75,
+    "similarity": 0.33,
     "diffSummary": "Skills updated from [Docker, React, JavaScript] to [AWS, Python, Docker, JavaScript, Kubernetes]"
   },
   {
@@ -2244,7 +2248,7 @@
       ]
     },
     "similarity": 0.67,
-    "diffSummary": "Best match lacks JavaScript and HTML skills present in Joyce."
+    "diffSummary": "Skills updated from [JavaScript, Kubernetes, AWS, HTML, React, CSS] to [Kubernetes, React, AWS, CSS]"
   },
   {
     "recordToMatch": {
@@ -2272,8 +2276,8 @@
         "Docker"
       ]
     },
-    "similarity": 0.83,
-    "diffSummary": "Skills updated: removed CSS; added Kubernetes, HTML, React, Docker"
+    "similarity": 0.64,
+    "diffSummary": "Skills updated from [AWS, JavaScript, CSS] to [AWS, Kubernetes, JavaScript, HTML, React, Docker]"
   },
   {
     "recordToMatch": {
@@ -2300,7 +2304,7 @@
       ]
     },
     "similarity": 0.4,
-    "diffSummary": "Skills updated from [Node.js, AWS, Python] to [Node.js, AWS, JavaScript, React]"
+    "diffSummary": "Skills changed: removed Python; added JavaScript and React"
   },
   {
     "recordToMatch": {
@@ -2327,7 +2331,7 @@
       ]
     },
     "similarity": 0.4,
-    "diffSummary": "Skills changed: removed Python; added React and AWS"
+    "diffSummary": "Skills updated from [Node.js, Python, JavaScript] to [Node.js, JavaScript, React, AWS]"
   },
   {
     "recordToMatch": {
@@ -2354,7 +2358,7 @@
       ]
     },
     "similarity": 0.4,
-    "diffSummary": "Job title changed from Product Manager to UX Designer; Skills differ: added AWS, Kubernetes; missing Node.js"
+    "diffSummary": "Title changed from Product Manager to UX Designer; removed Node.js, added Kubernetes and AWS."
   },
   {
     "recordToMatch": {
@@ -2382,7 +2386,7 @@
       ]
     },
     "similarity": 0.6,
-    "diffSummary": "Name changed from Joseph Anderson to Joseph Johnson; Skills added: Docker, React"
+    "diffSummary": "Skills updated from [Kubernetes, AWS, SQL] to [AWS, SQL, Docker, Kubernetes, React]"
   },
   {
     "recordToMatch": {
@@ -2411,7 +2415,7 @@
         "Docker"
       ]
     },
-    "similarity": 0.71,
+    "similarity": 0.43,
     "diffSummary": "Skills updated from [AWS, CSS, Kubernetes, React] to [AWS, Kubernetes, JavaScript, HTML, React, Docker]"
   },
   {
@@ -2443,7 +2447,7 @@
       ]
     },
     "similarity": 0.57,
-    "diffSummary": "Skills updated: Python removed; JavaScript and Node.js added"
+    "diffSummary": "Skills changed: removed Python; added JavaScript and Node.js"
   },
   {
     "recordToMatch": {
@@ -2474,8 +2478,8 @@
         "React"
       ]
     },
-    "similarity": 0.71,
-    "diffSummary": "Skills updated: SQL removed, Kubernetes added."
+    "similarity": 0.7142857,
+    "diffSummary": "Skills updated: added Kubernetes, removed SQL"
   },
   {
     "recordToMatch": {
@@ -2530,7 +2534,7 @@
       ]
     },
     "similarity": 0.2,
-    "diffSummary": "Skills changed from [Python, React, Docker] to [Docker, SQL, Kubernetes]"
+    "diffSummary": "Skills updated: removed Python and React; added SQL and Kubernetes"
   },
   {
     "recordToMatch": {
@@ -2562,7 +2566,7 @@
       ]
     },
     "similarity": 0.67,
-    "diffSummary": "Added skills: HTML, Node.js; missing skills: AWS, CSS"
+    "diffSummary": "Skills updated: added AWS and CSS; removed HTML and Node.js"
   },
   {
     "recordToMatch": {
@@ -2589,8 +2593,8 @@
         "CSS"
       ]
     },
-    "similarity": 0.33,
-    "diffSummary": "Skills updated from [HTML, JavaScript, Docker, Node.js, CSS] to [AWS, Docker, CSS]"
+    "similarity": 0.56,
+    "diffSummary": "Skills updated: removed HTML, JavaScript, Node.js; added AWS"
   },
   {
     "recordToMatch": {
@@ -2622,7 +2626,7 @@
       ]
     },
     "similarity": 0.5,
-    "diffSummary": "Skills updated: removed SQL and CSS, added React and Kubernetes"
+    "diffSummary": "Name changed from Heather Miller to Victoria Patrick; Skills added: React, Kubernetes; Skills removed: SQL, CSS"
   },
   {
     "recordToMatch": {
@@ -2648,8 +2652,8 @@
         "React"
       ]
     },
-    "similarity": 0.7,
-    "diffSummary": "Skills updated from [HTML, React, Kubernetes] to [SQL, HTML, AWS, React]"
+    "similarity": 0.4,
+    "diffSummary": "Skills updated from [HTML, React, Kubernetes] to [HTML, React, SQL, AWS] (added SQL, AWS; removed Kubernetes)"
   },
   {
     "recordToMatch": {
@@ -2681,7 +2685,7 @@
       ]
     },
     "similarity": 0.5,
-    "diffSummary": "Skills removed: Docker, SQL; added: Python, CSS."
+    "diffSummary": "Skills updated: added Python, CSS; removed Docker, SQL."
   },
   {
     "recordToMatch": {
@@ -2712,8 +2716,8 @@
         "JavaScript"
       ]
     },
-    "similarity": 0.71,
-    "diffSummary": "Skills updated: removed 'AWS', added 'HTML'."
+    "similarity": 0.83,
+    "diffSummary": "Skills updated: removed HTML; added AWS"
   },
   {
     "recordToMatch": {
@@ -2740,8 +2744,8 @@
         "SQL"
       ]
     },
-    "similarity": 0.6,
-    "diffSummary": "Title changed from Software Engineer to DevOps Engineer; Skills removed: Kubernetes; added: React"
+    "similarity": 0.75,
+    "diffSummary": "Title changed from Software Engineer to DevOps Engineer; Skills updated: removed Kubernetes, added React"
   },
   {
     "recordToMatch": {
@@ -2759,20 +2763,18 @@
       ]
     },
     "bestMatch": {
-      "id": 118766,
-      "name": "Kayla Jones",
+      "id": 113714,
+      "name": "Jason House",
       "title": "UX Designer",
-      "summary": "Notice receive degree run staff service government. Car material truth pattern ago other majority final.",
+      "summary": "Fear great easy plan PM more. Impact individual rock fly daughter fall. Before control board born painting child reflect. Control instead company where future model.",
       "skills": [
-        "AWS",
-        "Python",
-        "Node.js",
-        "Kubernetes",
-        "CSS"
+        "SQL",
+        "React",
+        "Kubernetes"
       ]
     },
     "similarity": 0.75,
-    "diffSummary": "Skills updated: added AWS and CSS; removed SQL, HTML, and React."
+    "diffSummary": "Name changed from Russell Robinson to Jason House; Skills updated from [Python, Kubernetes, Node.js, SQL, HTML, React] to [SQL, React, Kubernetes]."
   },
   {
     "recordToMatch": {
@@ -2801,7 +2803,7 @@
       ]
     },
     "similarity": 0.5,
-    "diffSummary": "Job title changed from Software Engineer to Product Manager; missing skills CSS and Node.js; added skill AWS."
+    "diffSummary": "Job title changed from Software Engineer to Product Manager; added skill AWS; removed skills CSS and Node.js"
   },
   {
     "recordToMatch": {
@@ -2828,8 +2830,8 @@
         "AWS"
       ]
     },
-    "similarity": 0.45,
-    "diffSummary": "Skills updated: added Kubernetes, Python, HTML; removed CSS"
+    "similarity": 0.67,
+    "diffSummary": "Skills updated from SQL, AWS, CSS to Kubernetes, Python, SQL, HTML, AWS"
   },
   {
     "recordToMatch": {
@@ -2858,6 +2860,6 @@
       ]
     },
     "similarity": 0.5,
-    "diffSummary": "Skills updated from JavaScript, Python, SQL to AWS, Python, SQL, Node.js, JavaScript, CSS"
+    "diffSummary": "Skills updated from [JavaScript, Python, SQL] to [AWS, Python, SQL, Node.js, JavaScript, CSS]"
   }
 ]

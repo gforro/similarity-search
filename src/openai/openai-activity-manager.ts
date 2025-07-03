@@ -2,6 +2,7 @@ import OpenAI from "openai";
 import { parseNumber, wait } from "../helpers";
 import { RateLimitHandler } from "../ratelimit/types";
 import { LLMActivity } from "./types";
+import chalk from "chalk";
 
 export class OpenAIActivityManager<Rec, Message, Res> {
   constructor(
@@ -44,10 +45,12 @@ export class OpenAIActivityManager<Rec, Message, Res> {
               (this.rateLimitHandler.calculateWaitTime(estimatedToken) ||
                 this.defaultRetryDelayMs * attempt);
 
-            console.log(
-              `Rate limit error. Waiting ${Math.ceil(
-                retryAfter / 1000
-              )}s before retry...`
+            console.warn(
+              chalk.yellow(
+                `Rate limit error. Waiting ${Math.ceil(
+                  retryAfter / 1000
+                )}s before retry...`
+              )
             );
             await wait(retryAfter);
             continue;

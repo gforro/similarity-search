@@ -1,7 +1,12 @@
 import OpenAI from "openai";
 import { countToken } from "../helpers";
-import { SimilarityResponse, PersonType } from "../model";
+import {
+  SimilarityResponse,
+  PersonType,
+  SimilarityResponseType,
+} from "../model";
 import { LLMActivity, LLMResponse } from "./types";
+import chalk from "chalk";
 
 export interface FindSimilarTask<R> {
   personToEvaluate: R;
@@ -81,16 +86,25 @@ Return JSON format:
       //todo better error handling - see an example above about the max completition token
       throw new Error("chat completition is missing from openai response");
     }
-    console.log(data.choices[0].message.content);
-    const llmResponse = SimilarityResponse.parse(
-      JSON.parse(data.choices[0].message.content)
-    );
+    let llmResponse: SimilarityResponseType;
+    try {
+      llmResponse = SimilarityResponse.parse(
+        JSON.parse(data.choices[0].message.content)
+      );
+    } catch (error) {
+      console.error(chalk.red("Error when parsing LLM response", error));
+      console.log(chalk.green("Message to LLM:"));
+      console.log(chalk.gray(message));
+      console.log(chalk.green("Failed response:"));
+      console.log(chalk.gray(data.choices[0].message.content));
+      throw error;
+    }
+
     const bestMatch = record.candidates[llmResponse.bestMatch - 1];
     if (!bestMatch) {
-      console.log(
-        "Bad index for the best match in LLM response",
-        JSON.stringify(llmResponse, undefined, 2)
-      );
+      console.error(chalk.red("Bad index for the best match in LLM response"));
+      console.log(chalk.green("Parsed response from LLM:"));
+      console.log(chalk.gray(JSON.stringify(llmResponse, undefined, 2)));
       throw new Error(
         "LLM returned an invalid index for the provided set of possible matches"
       );

@@ -113,7 +113,7 @@ export function parseDuration(durationStr: string | null): number | undefined {
   }
 
   // Handle minutes
-  const minutesMatch = durationStr.match(/(\d+(?:\.\d+)?)m/);
+  const minutesMatch = durationStr.match(/(\d+(?:\.\d+)?)m(?!s)/);
   if (minutesMatch && minutesMatch[1]) {
     totalMs += parseFloat(minutesMatch[1]) * 60 * 1000;
   }

@@ -65,4 +65,9 @@ async function main() {
   );
 }
 
-main().then(() => console.log("done"));
+main()
+  .then(() => console.log("done"))
+  .catch((error) => {
+    console.error("Application failed:", error);
+    process.exit(1);
+  });
